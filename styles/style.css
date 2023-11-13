@@ -333,15 +333,24 @@ footer ul li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 240px;
 }
 
 .mainForgotPassword h1{
-    margin-bottom: 14px;
+    margin-bottom: 12px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#inputEmailRecPassword{
+    margin-bottom: 12px;
+    width: 386px;
+    border-radius: 6px;
+    background: #ffffff;
+    padding: 10px;
 }
 
 #btnRecPassword{
-    margin-top: 20px;
-    margin-bottom: 14px;
     font-size: 22px;
     width: 386px;
     background: #050EA1;
@@ -349,10 +358,34 @@ footer ul li{
     padding: 10px;
 }
 
-#inputEmailRecPassword{
-    margin-bottom: 20px;
+/* Verification Code */
+.mainVerificationCode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+}
+
+.mainVerificationCode h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+#inputVerificationCode{
+    margin-bottom: 12px;
     width: 386px;
     border-radius: 6px;
     background: #ffffff;
+    padding: 10px;
+}
+
+#btnVerificationCode{
+    font-size: 22px;
+    width: 386px;
+    background: #050EA1;
+    border-radius: 10px;
     padding: 10px;
 }
