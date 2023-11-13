@@ -264,24 +264,24 @@ footer ul li{
     display: flex;
     justify-content: space-around;
     padding: 10%;
-    gap: 20px;
+    gap: 126px;
 }
 
 .highlight-link{
     color: #64FFE3;
 }
 
-.mainRight{
+.mainLogin > .mainRight{
     width: 100%;
 }
 
-.mainRight h1{
+.mainLogin > .mainRight h1{
     font-weight: 700;
     font-size: 32px;
     margin-bottom: 12px;
 }
 
-.mainRight input{
+.mainLogin > .mainRight input{
     margin-bottom: 20px;
     width: 386px;
     border-radius: 6px;
@@ -289,16 +289,21 @@ footer ul li{
     padding: 10px;
 }
 
-.mainRight input:focus{
+.mainLogin > .mainRight input:focus{
     outline: none;
     color: black;
 }
 
-.mainRight{
+.mainLogin > .mainRight{
     flex-direction: column;
     text-align: center;
 }
 
+
+.mainLogin > .mainRight p{
+    font-weight: 300;
+    font-size: 22px;
+}
 
 #btnLogin{
     margin-top: 20px;
@@ -310,16 +315,44 @@ footer ul li{
     padding: 10px;
 }
 
-.mainRight p{
-    font-weight: 300;
-    font-size: 22px;
-}
-
-.mainLeft{
+.mainLogin > .mainLeft{
     width: 100%;
     height: 50vh;
     border-radius: 10px;
     background: #64FFE3;
     text-align: center;
     font-weight: bold;
+}
+
+/* Register */
+
+
+/* Forgot Password */
+.mainForgotPassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainForgotPassword h1{
+    margin-bottom: 14px;
+}
+
+#btnRecPassword{
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-size: 22px;
+    width: 386px;
+    background: #050EA1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#inputEmailRecPassword{
+    margin-bottom: 20px;
+    width: 386px;
+    border-radius: 6px;
+    background: #ffffff;
+    padding: 10px;
 }
